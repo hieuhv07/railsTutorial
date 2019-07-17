@@ -1,17 +1,14 @@
-<% provide :title, "help" %>
+<% provide :title, t(".title") %>
 <html>
   <head>
-    <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    <title><%= full_title yield(:title) %></title>
   </head>
   <body>
-    <h1>Help</h1>
+    <h1><%= t ".title" %></h1>
     <p>
-      Get help on the Ruby on Rails Tutorial at the
-      <a href="https://www.railstutorial.org/help">Rails Tutorial help
-      page</a>.
-      To get help on this sample app, see the
-      <a href="https://www.railstutorial.org/book"><em>Ruby on Rails
-      Tutorial</em> book</a>.
+
+      <%= raw t ".link1", url1: link_to(t(".title_link1"), "https://www.railstutorial.org/help") %>
+      <%= raw t ".link2", url2: link_to(t(".title_link2"), "https://www.railstutorial.org/book") %>
     </p>
   </body>
 </html>

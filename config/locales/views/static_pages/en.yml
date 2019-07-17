@@ -1,0 +1,27 @@
+en:
+  static_pages:
+    home:
+      title: "Home"
+      sample_app: "Sample App"
+      link: "This is the home page for the %{url} sample application."
+      title_link: "Ruby on Rails Tutorial"
+    about:
+      title: "About"
+      link: "the %{url} is a"
+      title_link: "Ruby on Rails Tutorial"
+      book: "book"
+      and: "and"
+      title_link1: "screencast series"
+      text: "to teach web development with"
+      title_link2: "Ruby on Rails"
+      text2: "This is the sample application for the tutorial."
+    contact:
+      title: "Contact"
+      link: "Contact the Ruby on Rails Tutorial about the sample app at the %{url}"
+      title_link: "contact page"
+    help:
+      title: "Help"
+      link1: "Get help on the Ruby on Rails Tutorial at the %{url1}."
+      title_link1: "Rails Tutorial help page"
+      link2: "To get help on this sample app, see the %{url2} book."
+      title_link2: "Ruby on Rails Tutorial"
