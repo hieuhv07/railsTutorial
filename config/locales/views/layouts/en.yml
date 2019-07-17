@@ -1,0 +1,15 @@
+en:
+  layouts:
+    header:
+      logo: "sample app"
+      home: "Home"
+      help: "Help"
+      log_in: "Login"
+    footer:
+      link1: "The %{url1}"
+      title_link1: "Ruby on Rails Tutorial"
+      link2: "by %{url2}"
+      title_link2: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      news: "News"

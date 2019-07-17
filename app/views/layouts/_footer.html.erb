@@ -1,0 +1,15 @@
+<footer class="footer">
+  <small>
+    <%= raw t ".link1", url1: link_to(t(".title_link1"), "https://www.railstutorial.org/") %>
+    <%= raw t ".link2", url2: link_to(t(".title_link2"), "https://www.railstutorial.org/") %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t("contact"), contact_path %></li>
+      <li>
+      	<%= link_to t(".news"), "http://news.railstutorial.org/" %>
+      </li>
+    </ul>
+  </nav>
+</footer>

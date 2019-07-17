@@ -2,9 +2,11 @@ en:
   static_pages:
     home:
       title: "Home"
-      sample_app: "Sample App"
+      sample_app: "Welcome To The Sample App"
       link: "This is the home page for the %{url} sample application."
       title_link: "Ruby on Rails Tutorial"
+      sign_up: "Sign up now!"
+      logo: "Raisl logo"
     about:
       title: "About"
       link: "the %{url} is a"
