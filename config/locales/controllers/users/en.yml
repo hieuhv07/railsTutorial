@@ -1,0 +1,5 @@
+en:
+  users:
+    create:
+      success: "Create users successfully!"
+      error: "Create users has problem!"

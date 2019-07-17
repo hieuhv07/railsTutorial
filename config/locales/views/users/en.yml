@@ -2,3 +2,8 @@ en:
   users:
     new:
       title: "Sign up"
+      name: "Name"
+      email: "Email"
+      pass: "Password"
+      pass_confirm: "Password Confirmation"
+      submit: "Create my account"
