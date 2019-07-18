@@ -1,4 +1,5 @@
 class ApplicationController < ActionController::Base
+	include SessionsHelper
   protect_from_forgery with: :exception
   rescue_from ActiveRecord::RecordNotFound, with: :not_found?
 

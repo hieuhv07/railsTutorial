@@ -1,0 +1,5 @@
+en:
+  sessions:
+    create:
+      success_login: "Login user successfully!"
+      error_login: "Invalid email/password combination!"

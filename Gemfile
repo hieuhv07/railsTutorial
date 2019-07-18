@@ -6,6 +6,7 @@ gem "bootstrap-sass", "3.3.7"
 gem "bootsnap", ">= 1.1.0", require: false
 gem "bcrypt", "~> 3.1.7"
 gem "coffee-rails", "~> 4.2"
+gem "config"
 gem "i18n", "~> 1.0", ">= 1.0.1"
 gem "jbuilder", "~> 2.5"
 gem "jquery-rails", "~> 4.3", ">= 4.3.3"
