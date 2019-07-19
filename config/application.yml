@@ -1,0 +1,5 @@
+HOST: "localhost:3000"
+ADDRESS: "smtp.gmail.com"
+DOMAIN: "gmail.com"
+GMAIL_USERNAME: "hieuhv97@gmail.com"
+GMAIL_PASSWORD: "sinhvienit97"

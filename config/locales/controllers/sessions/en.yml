@@ -3,3 +3,4 @@ en:
     create:
       success_login: "Login user successfully!"
       error_login: "Invalid email/password combination!"
+      require_activation: "Account not activated. Check your email for the activation link."
