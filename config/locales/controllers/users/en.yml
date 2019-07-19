@@ -3,3 +3,16 @@ en:
     create:
       success: "Create users successfully!"
       error: "Create users has problem!"
+    update:
+      success_update: "Update users successfully!"
+      error_update: "Update users has problem!"
+    show:
+      danger: "Required you have login"
+      permission: "You not permission!"
+    edit:
+      permission: "You not permission!"
+    index:
+      danger: "You not permission!"
+    destroy:
+      success: "Delete user successfully!"
+      error: "Delete user has problem!"
