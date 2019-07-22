@@ -1,0 +1,7 @@
+en:
+  password_resets:
+    create:
+      check_email: "Email sent with password reset instructions."
+      danger: "Email address not found."
+    update:
+      update_success: "Password has been reset."
