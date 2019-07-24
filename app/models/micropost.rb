@@ -8,6 +8,11 @@ class Micropost < ApplicationRecord
   validate :picture_size
 
   scope :newest, ->{order created_at: :desc}
+  scope :micropost_following, ->(following_ids, id){where("user_id IN (?) OR user_id = ?", following_ids, id)}
+
+  # def self.micropost_following following_ids, id
+  #   where "user_id IN following_ids OR user_id = id"
+  # end
 
   private
 

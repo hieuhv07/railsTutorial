@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
         log_in user
         params[:session][:remember_me] == "1" ? remember(user) : forget(user)
         flash[:success] = t ".success_login"
-        redirect_back_or user
+        redirect_back_or root_path
       else
         flash[:warning] = t ".require_activation"
         redirect_to root_path

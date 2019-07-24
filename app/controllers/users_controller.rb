@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
-  before_action :load_user, only: %i(show edit update destroy)
-  before_action :logged_in_user, only: %i(index show edit update destroy)
+  before_action :load_user, only: %i(show edit update destroy following followers)
+  before_action :logged_in_user, 
+    only: %i(index show edit update destroy following followers)
   before_action :correct_user, only: %i(edit)
   before_action :admin_user, only: %i(destroy)
 
@@ -50,6 +51,18 @@ class UsersController < ApplicationController
       flash[:danger] = t ".error"
       redirect_to users_path
     end
+  end
+
+  def following
+    @title = "Following"
+    @users = @user.following.newest.paginate page: params[:gage], per_page: 10
+    render :show_follow
+  end
+
+  def followers
+    @title = "Followers"
+    @users = @user.followers.newest.paginate page: params[:page], per_page: 10
+    render :show_follow
   end
 
   private
